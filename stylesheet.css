@@ -4,9 +4,13 @@
     padding: 0;
 }
 body {
+    background-image: url('assets/nunu_and_willump.jpg');
     min-height: 100vh;
+
 }
 /*votre beau css ici :-)*/
+
+
 
 .navbar {
 
@@ -28,3 +32,4 @@ footer {
     color: #2986cc !important;
 
 }
+
