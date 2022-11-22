@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik%20Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
-    background-image: url('assets/nunu_and_willump.jpg');
-    min-height: 100vh;
+    background-color: aliceblue;
+    
 
 }
 /*votre beau css ici :-)*/
@@ -27,9 +30,58 @@ body {
 	padding: 3em;
 }
 
+h1{
+    padding: 3em;
+    font-family: 'Rubik Microbe';
+}
+
+.h1-menu{
+    
+    padding: 2em;
+    text-align: center;
+}
+
 footer {
 
     color: #2986cc !important;
 
+}
+
+.nunu{
+    
+    background-image: url('assets/nunu_and_willump.jpg');
+    /* min-height: 100vh; */
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nunu2{
+    background-image: url('assets/nunu_header.png');
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+
+.language-btn{
+    
+    text-align: center;
+    padding: 3em;
+
+}
+
+.espacement{
+    
+    /*padding: 2em;*/
 }
 

@@ -1,0 +1,35 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('assets/nunu_and_willump.jpg');
+    min-height: 100vh;
+
+}
+/*votre beau css ici :-)*/
+
+
+
+.navbar {
+
+    background-color: #2986cc !important;
+
+}
+
+.container > div {
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+
+.container > h1{
+	padding: 3em;
+}
+
+footer {
+
+    color: #2986cc !important;
+
+}
+
