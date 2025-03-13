@@ -49,11 +49,12 @@ footer {
 
 .nunu{
     
-    background-image: url('assets/nunu_and_willump.jpg');
+    /*background-image: url('assets/nunu_and_willump.jpg');*/
     /* min-height: 100vh; */
 
     /* Full height */
     height: 100%;
+    background-color: aquamarine;
 
     /* Center and scale the image nicely */
     background-position: center;
