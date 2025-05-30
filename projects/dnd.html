@@ -18,17 +18,14 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-        						<a class="nav-link" href="/about/index.html">About</a>
-      						</li>
-							<li class="nav-item">
         						<a class="nav-link" href="/projects/calque.html">Calque</a>
-      						</li>
-							<li class="nav-item">
-        						<a class="nav-link" href="/projects/lechainon.html">LeChainon</a>
       						</li>
 							<li class="nav-item">
         						<a class="nav-link" href="/projects/dnd.html">Dungeons and Dragons</a>
       						</li>			
+                  <li class="nav-item">
+        						<a class="nav-link" href="/projects/sentient-ai.html">Sentient-AI</a>
+      						</li>		
 					</div>
 				</div>
 			</nav>
@@ -50,8 +47,6 @@
         It lets you have your characters always with you, so you can access them even without your character sheet. 
         Moreover, you can level them up easily, making you save time with all the search usually needed. 
         It also serves as a database for all the spells, classes, races, features, etc.
-        This project is a web-based application that allows users to [briefly explain what it does]. 
-        It was built to address [explain the problem or goal]. It includes features like user authentication, real-time updates, and a responsive UI.
       </p>
     </section>
 
@@ -59,14 +54,54 @@
      <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../assets/lechainon/Authentification.png" class="d-block w-100" alt="Login Portal">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Login Portal</h5>
-        <p>Login Portal for all types of users, residents and caregivers alike.</p>
-      </div>
+      <img src="../assets/dnd/hero-section.png" class="d-block w-100" alt="Hero Section">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/about.png" class="d-block w-100" alt="About">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/create-account.png" class="d-block w-100" alt="Race Selection">
+  
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/spell-archive.png" class="d-block w-100" alt="Spell List">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/login.png" class="d-block w-100" alt="Character Sheet">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/vault.png" class="d-block w-100" alt="Character Sheet">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/page1.png" class="d-block w-100" alt="Character Sheet">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/click-on-square.png" class="d-block w-100" alt="Character Sheet">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/fetch-database.png" class="d-block w-100" alt="Character Sheet">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/dnd/are-you-sure.png" class="d-block w-100" alt="Character Sheet">
+
     </div>
 
   </div>
@@ -84,32 +119,273 @@
     <section class="mb-4">
       <h2>Tech Stack</h2>
       <ul class="list-group">
-        <li class="list-group-item">Figma</li>
-        <li class="list-group-item">Frontend: React.js</li>
-        <li class="list-group-item">Styling: SCSS + CSS</li>
-        <li class="list-group-item">Backend: Supabase</li>
-        <li class="list-group-item">Webscraping: Python</li>
+<li class="list-group-item">
+  <h4>Frontend Technologies</h4>
+  <ul>
+    <li class="list-group-item">
+      <strong>Core Framework and Language</strong>
+      <ul>
+        <li class="list-group-item">React (v19.0.0)</li>
+        <li class="list-group-item">TypeScript (v5.6.2)</li>
+        <li class="list-group-item">Vite (v6.0.3) as the build tool and development server</li>
+      </ul>
+    </li>
+    <li class="list-group-item">
+      <strong>UI and Styling</strong>
+      <ul>
+        <li class="list-group-item">SASS/SCSS for styling</li>
+        <li class="list-group-item">Framer Motion (v11.15.0) for animations</li>
+        <li class="list-group-item">React Collapse (v5.1.1) for collapsible components</li>
+        <li class="list-group-item">React Flip Toolkit (v7.2.4) for animations</li>
+        <li class="list-group-item">Custom components (e.g., SlidePlatinum)</li>
+      </ul>
+    </li>
+    <li class="list-group-item">
+      <strong>Routing and Navigation</strong>
+      <ul>
+        <li class="list-group-item">React Router DOM (v7.1.1)</li>
+      </ul>
+    </li>
+    <li class="list-group-item">
+      <strong>State Management and Data Fetching</strong>
+      <ul>
+        <li class="list-group-item">Axios (v1.7.9) for HTTP requests</li>
+        <li class="list-group-item">Supabase Client (@supabase/supabase-js v2.47.10)</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<li class="list-group-item">
+  <h4>Backend Technologies</h4>
+  <ul>
+    <li class="list-group-item">
+      <strong>Server</strong>
+      <ul>
+        <li class="list-group-item">Node.js</li>
+        <li class="list-group-item">Express.js (v4.21.2)</li>
+        <li class="list-group-item">CORS (v2.8.5)</li>
+      </ul>
+    </li>
+    <li class="list-group-item">
+      <strong>Database and Authentication</strong>
+      <ul>
+        <li class="list-group-item">Supabase (Backend as a Service)</li>
+        <li class="list-group-item">Supabase Authentication</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<li class="list-group-item">
+  <h4>Development Tools and Configuration</h4>
+  <ul>
+    <li class="list-group-item">
+      <strong>Build and Development Tools</strong>
+      <ul>
+        <li class="list-group-item">Vite for development and building</li>
+        <li class="list-group-item">TypeScript configuration</li>
+        <li class="list-group-item">ESLint (v9.17.0) for code linting</li>
+        <li class="list-group-item">Various TypeScript ESLint plugins</li>
+      </ul>
+    </li>
+    <li class="list-group-item">
+      <strong>Environment and Configuration</strong>
+      <ul>
+        <li class="list-group-item">dotenv (v16.4.7) for environment variables</li>
+        <li class="list-group-item">TypeScript configuration files:
+          <ul>
+            <li class="list-group-item">tsconfig.json</li>
+            <li class="list-group-item">tsconfig.app.json</li>
+            <li class="list-group-item">tsconfig.node.json</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="list-group-item">
+      <strong>Development Dependencies</strong>
+      <ul>
+        <li class="list-group-item">Various TypeScript type definitions</li>
+        <li class="list-group-item">ESLint plugins for React</li>
+        <li class="list-group-item">React development tools</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<li class="list-group-item">
+  <h4>Project Structure</h4>
+  <ul>
+    <li class="list-group-item">Frontend and backend separation</li>
+    <li class="list-group-item">Component-based architecture</li>
+    <li class="list-group-item">TypeScript interfaces for type safety</li>
+    <li class="list-group-item">Modular CSS/SCSS structure</li>
+  </ul>
+</li>
+
+<li class="list-group-item">
+  <h4>Additional Features</h4>
+  <ul>
+    <li class="list-group-item">Environment variable management</li>
+    <li class="list-group-item">API client configuration</li>
+    <li class="list-group-item">Custom component library</li>
+    <li class="list-group-item">Responsive design implementation</li>
+    <li class="list-group-item">Modern JavaScript features (ES2020+)</li>
+  </ul>
+</li>
+
       </ul>
     </section>
 
     <!-- Tech Stack Rationale -->
     <section>
-      <h2>Why This Tech Stack?</h2>
-      <p>
-        <strong>Figma</strong> for prototyping and UI/UX design, allowing for rapid iteration and feedback.
-        <strong>React</strong> was chosen for its component-based architecture and strong community support. 
-        <strong>Supabase</strong> was selected for its ease of use and integration with PostgreSQL, providing a robust backend solution without the need for extensive setup.
-        <strong>SCSS</strong> was used for styling to take advantage of its nested rules and variables, making the CSS more maintainable. 
-      </p>
+      <h2>What I have done</h2>
+
+
+
+<ol>
+  <li>
+    <strong>Character Creation System</strong>
+    <ul>
+      <li>Multi-step character creation process (7 steps)</li>
+      <li>Progress tracking with a progress bar</li>
+      <li>Ability to cancel creation with confirmation prompt</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Character Customization</strong>
+    <ul>
+      <li>Race selection with subraces</li>
+      <li>Class selection with subclasses</li>
+      <li>Background selection</li>
+      <li>Character identity customization (name, alignment, etc.)</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Stats System</strong>
+    <ul>
+      <li>Multiple stat generation methods:
+        <ul>
+          <li>Point Buy system</li>
+          <li>Custom system (with DM approval)</li>
+        </ul>
+      </li>
+      <li>Ability to modify stats with bonus points</li>
+      <li>Stat tracking for all six core abilities (Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma)</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Feat System</strong>
+    <ul>
+      <li>Feat selection at specific level milestones (4, 8, 12, 16, 19)</li>
+      <li>Ability Score Improvement (ASI) option</li>
+      <li>Searchable feat list</li>
+      <li>Feat details display (description, bonuses, prerequisites)</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>User Account Features</strong>
+    <ul>
+      <li>User authentication system</li>
+      <li>Character vault for saved characters</li>
+      <li>Ability to create multiple characters</li>
+      <li>User profile management</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Navigation and UI Features</strong>
+    <ul>
+      <li>Responsive navigation menu</li>
+      <li>Search functionality for various components</li>
+      <li>Mobile-friendly interface with slide menu</li>
+      <li>Visual feedback for selections and actions</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Data Management</strong>
+    <ul>
+      <li>Integration with Supabase for data storage</li>
+      <li>Fetching and managing:
+        <ul>
+          <li>Races and subraces</li>
+          <li>Classes and subclasses</li>
+          <li>Backgrounds</li>
+          <li>Feats</li>
+          <li>Character data</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Character Features</strong>
+    <ul>
+      <li>Level progression system</li>
+      <li>Hit points calculation</li>
+      <li>Armor class calculation</li>
+      <li>Initiative tracking</li>
+      <li>Speed calculation</li>
+      <li>Gold management</li>
+      <li>Skills and proficiencies</li>
+      <li>Equipment management</li>
+      <li>Languages</li>
+      <li>Traits and features</li>
+      <li>Spell management</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>UI/UX Features</strong>
+    <ul>
+      <li>Modern and clean interface</li>
+      <li>Interactive cards for selections</li>
+      <li>Search filters</li>
+      <li>Responsive design</li>
+      <li>Visual feedback for user actions</li>
+      <li>Confirmation dialogs for important actions</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Navigation Features</strong>
+    <ul>
+      <li>Access to different sections:
+        <ul>
+          <li>Spells</li>
+          <li>Classes</li>
+          <li>Races</li>
+          <li>Feats</li>
+          <li>Backgrounds</li>
+          <li>Epic Boons</li>
+        </ul>
+      </li>
+      <li>Easy navigation between different parts of the application</li>
+    </ul>
+  </li>
+</ol>
+
+
     </section>
 
     <!-- Tech Stack Rationale -->
     <section>
-      <h2>What I could improve.</h2>
+      <h2>What I could add to this project.</h2>
       <p>
-        There are still features to implement. 
-        I would like to add more options.
-      </p>
+        <ul>
+          <li>Complete the character builder, especially the final steps which are currently sloppy, as there are only text fields instead of select fields. 
+            The functions handleProficiencies, handleLanguages and handleEquipment are currently empty.
+          </li>
+          <li>Implement saving the large character useState to the database in the connected user's character section</li>
+          <li>Add functionality to fetch characters in the "My Vault" section where users can view all their characters and click on one to see its stats</li>
+          <li>Initially planned feature: Allow leveling up/down of existing characters as desired (this is likely the most time-consuming task)</li>
+          <li>Optional feature: Allow users to view other users' characters based on prebuilt character search by level/class/race and save them to their vault for use</li>
+        </ul>
     </section>
   </div>
 
